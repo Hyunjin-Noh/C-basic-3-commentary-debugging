@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int num, result;
+    //scanf("%d", &num);
+    num=100;
+    num++;
+    result = num++; //디버깅 창의 화살표가 이 위치에 있을 때의 값 확인(결과=101)하고 출력하는 문제.
+    printf("%d\n", 101);  
+    return 0;
+}
